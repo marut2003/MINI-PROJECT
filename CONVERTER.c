@@ -71,7 +71,7 @@ int main() {
         printf("Please enter the USD amount: \n");
         scanf("%d",&userinputUSDtoINR);
         USDtoINR = userinputUSDtoINR * 78.0;
-        printf("RMB: %.2f",USDtoINR);
+        printf("INR: %.2f",USDtoINR);
       }
       else
         printf("Please enter correct choice. \n");
